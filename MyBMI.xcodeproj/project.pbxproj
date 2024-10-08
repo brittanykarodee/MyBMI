@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F18E7672C550072006DA41C /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F18E7662C550072006DA41C /* Roboto-Regular.ttf */; };
+		1F18E7692C55007C006DA41C /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F18E7682C55007C006DA41C /* Roboto-Bold.ttf */; };
+		1F18E76C2C550A28006DA41C /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18E76B2C550A28006DA41C /* ResultsViewController.swift */; };
+		1F18E76D2C550BEF006DA41C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F25FE192C5452D800B6B12F /* Main.storyboard */; };
 		1F25FE142C5452D800B6B12F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F25FE132C5452D800B6B12F /* AppDelegate.swift */; };
 		1F25FE162C5452D800B6B12F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F25FE152C5452D800B6B12F /* SceneDelegate.swift */; };
-		1F25FE182C5452D800B6B12F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F25FE172C5452D800B6B12F /* ViewController.swift */; };
+		1F25FE182C5452D800B6B12F /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F25FE172C5452D800B6B12F /* CalculateViewController.swift */; };
 		1F25FE1B2C5452D800B6B12F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1F25FE1A2C5452D800B6B12F /* Base */; };
 		1F25FE1D2C5452E200B6B12F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F25FE1C2C5452E200B6B12F /* Assets.xcassets */; };
 		1F25FE202C5452E200B6B12F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1F25FE1F2C5452E200B6B12F /* Base */; };
+		1F8228A72C55143F0081AE1E /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8228A62C55143F0081AE1E /* BMI.swift */; };
+		1F8228A92C5514700081AE1E /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8228A82C5514700081AE1E /* CalculatorBrain.swift */; };
+		1FD2E9062C628BC80058A99B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F25FE1E2C5452E200B6B12F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F18E7662C550072006DA41C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		1F18E7682C55007C006DA41C /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		1F18E76B2C550A28006DA41C /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		1F25FE102C5452D800B6B12F /* MyBMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBMI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F25FE132C5452D800B6B12F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F25FE152C5452D800B6B12F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F25FE172C5452D800B6B12F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F25FE172C5452D800B6B12F /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 		1F25FE1A2C5452D800B6B12F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F25FE1C2C5452E200B6B12F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F25FE1F2C5452E200B6B12F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F25FE212C5452E200B6B12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8228A62C55143F0081AE1E /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
+		1F8228A82C5514700081AE1E /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F18E7652C550043006DA41C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1F18E7662C550072006DA41C /* Roboto-Regular.ttf */,
+				1F18E7682C55007C006DA41C /* Roboto-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1F18E76A2C55008A006DA41C /* Delelgates */ = {
+			isa = PBXGroup;
+			children = (
+				1F25FE132C5452D800B6B12F /* AppDelegate.swift */,
+				1F25FE152C5452D800B6B12F /* SceneDelegate.swift */,
+			);
+			path = Delelgates;
+			sourceTree = "<group>";
+		};
 		1F25FE072C5452D700B6B12F = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +86,42 @@
 		1F25FE122C5452D800B6B12F /* MyBMI */ = {
 			isa = PBXGroup;
 			children = (
-				1F25FE132C5452D800B6B12F /* AppDelegate.swift */,
-				1F25FE152C5452D800B6B12F /* SceneDelegate.swift */,
-				1F25FE172C5452D800B6B12F /* ViewController.swift */,
-				1F25FE192C5452D800B6B12F /* Main.storyboard */,
+				1F18E76A2C55008A006DA41C /* Delelgates */,
+				1F18E7652C550043006DA41C /* Fonts */,
+				1F25FE292C54547E00B6B12F /* Models */,
+				1F25FE272C54544A00B6B12F /* Views */,
+				1F25FE282C54545F00B6B12F /* Controllers */,
 				1F25FE1C2C5452E200B6B12F /* Assets.xcassets */,
 				1F25FE1E2C5452E200B6B12F /* LaunchScreen.storyboard */,
 				1F25FE212C5452E200B6B12F /* Info.plist */,
 			);
 			path = MyBMI;
+			sourceTree = "<group>";
+		};
+		1F25FE272C54544A00B6B12F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F25FE192C5452D800B6B12F /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F25FE282C54545F00B6B12F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F25FE172C5452D800B6B12F /* CalculateViewController.swift */,
+				1F18E76B2C550A28006DA41C /* ResultsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1F25FE292C54547E00B6B12F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F8228A62C55143F0081AE1E /* BMI.swift */,
+				1F8228A82C5514700081AE1E /* CalculatorBrain.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +184,10 @@
 			files = (
 				1F25FE1D2C5452E200B6B12F /* Assets.xcassets in Resources */,
 				1F25FE202C5452E200B6B12F /* Base in Resources */,
+				1F18E7692C55007C006DA41C /* Roboto-Bold.ttf in Resources */,
+				1F18E76D2C550BEF006DA41C /* Main.storyboard in Resources */,
+				1FD2E9062C628BC80058A99B /* LaunchScreen.storyboard in Resources */,
+				1F18E7672C550072006DA41C /* Roboto-Regular.ttf in Resources */,
 				1F25FE1B2C5452D800B6B12F /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +199,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F25FE182C5452D800B6B12F /* ViewController.swift in Sources */,
+				1F8228A92C5514700081AE1E /* CalculatorBrain.swift in Sources */,
+				1F8228A72C55143F0081AE1E /* BMI.swift in Sources */,
+				1F25FE182C5452D800B6B12F /* CalculateViewController.swift in Sources */,
 				1F25FE142C5452D800B6B12F /* AppDelegate.swift in Sources */,
 				1F25FE162C5452D800B6B12F /* SceneDelegate.swift in Sources */,
+				1F18E76C2C550A28006DA41C /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +362,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,8 +389,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
